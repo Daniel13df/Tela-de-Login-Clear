@@ -1,0 +1,64 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: 2s;
+    
+  }
+  .logo:hover{
+    filter: drop-shadow(10px 10px 10px #a6f0e6);
+  }
+  
+  .telalogin{
+    width: 50%;
+    background-color: #F5F7FF;
+    margin: auto;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #D3D6D2;
+  }
+  
+  .telalogin h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .telalogin label{
+    display: flex;
+    margin: 1px;
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #21424A;
+  }
+  .telalogin input{
+    border-radius: 15px;
+    border-color: #A9E9FC;
+    border-width: 1px;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #265694;
+  }
+  .telalogin input:hover{
+    background-color: #F4FFF9;
+    box-shadow: 0px 0px 10px #BFFFF9;
+  }
+  .telalogin button{
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F7C359;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0B2F47;
+    cursor: pointer;
+  }
+  
+  .telalogin button:hover{
+    box-shadow: 0px 0px 10px #BFFFF9;
+    
+  }
